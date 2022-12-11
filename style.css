@@ -56,3 +56,105 @@ img {
     margin-right: 6.3px;
 }
 
+.container {
+    width: 1200px;
+    margin: auto;
+    padding: 50px;
+    height: 1350px;
+}
+
+.row {
+    margin-top: 50px;
+}
+
+.block {
+    position: relative;
+    margin: 10px;
+    float: left;
+    width: calc(100% / 3 - 20px);
+}
+
+.image:hover .first-image {
+    display: none;
+}
+
+.image:hover .second-image {
+    display: block;
+}
+
+.first-image {
+    display: block;
+}
+
+.second-image {
+    display: none;
+}
+
+.heart {
+    width: 40px;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    position: absolute;
+    font-size: 2rem;
+    top: 5px;
+    right: 0;
+}
+
+.heart:hover {
+    color: red;
+}
+
+.discount-badge {
+    font-size: 13px;
+    background-color: red;
+    padding: 3px;
+    color: #fff;
+    position: absolute;
+    bottom: 95px;
+    left: 0;
+}
+
+.sustainability {
+    background-color: green;
+    color: #fff;
+    position: absolute;
+    padding: 3px;
+    font-size: 13px;
+    bottom: 95px;
+    left: 40px;
+}
+
+#sixth-block-sustainability {
+    background-color: green;
+    color: #fff;
+    position: absolute;
+    padding: 3px;
+    font-size: 13px;
+    bottom: 95px;
+    left: 0px;
+}
+
+.brand {
+    font-size: smaller;
+}
+
+.item {
+    font-size: 15px;
+    margin-bottom: -3px;
+}
+
+.discounted-price {
+    color: red;
+    font-size: smaller;
+}
+
+.original-price {
+    text-decoration: line-through;
+    font-size: smaller;
+}
+
+.second-row {
+    float: left;
+    margin-top: 25px;
+}
