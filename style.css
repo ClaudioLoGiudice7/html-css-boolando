@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    background-color: #FF6900;
+    min-width: 100%;
+    padding: 3px;
+    position: fixed;
+    z-index: 1;
+}
+
+.header-container {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.people {
+    font-size: 13px;
+}
+
+#man,
+#woman {
+    margin-right: 7px;
+}
+
+img {
+    width: 100%;
+}
+
+.logo {
+    width: 100px;
+}
+
+#user {
+    margin-right: 5px;
+}
+
+#heart {
+    margin-right: 6.3px;
+}
+
